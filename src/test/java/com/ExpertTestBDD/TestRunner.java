@@ -17,8 +17,9 @@ import cucumber.api.junit.Cucumber;
 		plugin = { "pretty", "html:target/cucumber-html-report", "json:json/cucumber.json",
 				
 				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/Expertest.html" }, 
-		 tags = {(" @accueil, @Nos-Promotions , @Header, @quizzpage , @Eboutqiue,@Telechargement, @Actualite , @connexion ,@registration , @apropos") },
+		tags = {(" @accueil,@Nos-Promotions, @Header, @quizzpage , @Eboutqiue,@Telechargement, @Actualite, @connexion, @registration , @apropos ") },
 
+					
 		snippets = SnippetType.CAMELCASE, monochrome = true)
 
 public class TestRunner {
