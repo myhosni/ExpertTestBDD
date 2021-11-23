@@ -98,7 +98,7 @@ public class CommonMethods {
 		String ChildID = it.next();
 		driver.switchTo().window(ParentID);
 		
-
+	}
 
 	public void switchtocaptchaframe (String path) {
 		WebElement frm =driver.findElement(By.xpath(path));
